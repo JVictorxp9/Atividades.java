@@ -17,12 +17,10 @@ public class Mainq4 {
         }
         else if (salario <= 1500.00) {
             desconto = salario * 0.05;
-            System.out.println("Desconto de 5%");
             System.out.println("Desconto de 5%: R$ " + desconto);
         }
         else if (salario <= 2500.00) {
             desconto = salario * 0.10;
-            System.out.println("Desconto de 10%");
             System.out.println("Desconto de 10%: R$ " + desconto);
         }
         else {
